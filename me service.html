@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+  rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-color: black;
+            background-size: 1000% 1000%;
+        }
+    </style>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="home.html" class="active">Home <i class='bx bx-home-alt'></i></a>
+    <a href="about.html">About</a>
+    <a href="me service.html">Services</a>
+    <a href="poject.html">Project</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </div>
+    <section class="service">
+        <div class="section__container service__container">
+          <p class="section__subtitle">What I Offer!</p>
+          <h2 class="section__title"><span>My</span> Services</h2>
+          <div class="service__grid">
+            <div class="service__card">
+              <i class="ri-smartphone-line"></i>
+              <h4>Web Design</h4>
+              <p>
+                We are dedicated to providing high-quality web design services
+                that are tailored to meet the specific needs of our clients.
+              </p>
+              <a href="web design.html" class="read__more">Read more...</a>
+            </div>
+            <div class="service__card">
+              <i class="ri-code-s-slash-line"></i>
+              <h4>Web Development</h4>
+              <p>
+                We use the latest web technologies and development tools to create
+                websites that are fast, secure, and scalable.
+              </p>
+              <a href="Web Development.html" class="read__more">Read more...</a>
+            </div>
+            <div class="service__card">
+              <i class="ri-edit-2-line"></i>
+              <h4>Creative Design</h4>
+              <p>
+                Our approach is collaborative, and we encourage your feedback
+                throughout the design process to ensure that we are meeting your
+                expectations.
+              </p>
+              <a href="Creative Design.html" class="read__more">Read more...</a>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

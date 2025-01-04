@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+      body{
+        background-color: var(--text-dark);
+        background-size: 1000% 1000%;
+      }
+    </style>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="home.html" class="active">Home <i class='bx bx-home-alt'></i></a>
+    <a href="about.html">About</a>
+    <a href="me service.html">Services</a>
+    <a href="poject.html">Project</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </div>
+    <section class="project">
+        <div class="section__container project__container">
+          <p class="section__subtitle">Portfolio</p>
+          <h2 class="section__title"><span>Latest</span> Project</h2>
+          <div class="project__grid">
+            <div class="project__card">
+              <a href=" https://zodiag08.github.io/khouchali-chaimae/"><img src="babe1.png" alt="project"/></a>
+            </div>
+            <div class="project__card">
+              <a href="https://zodiag08.github.io/aya-jnane/"><img src="movie.png" alt="project" /></a>
+            </div>
+            <div class="project__card">
+              <a href="https://zodiag08.github.io/qatar-nada/"><img src="mike up.png" alt="project" />
+              </div></a>
+            <div class="project__card">
+              <a href="https://zodiag08.github.io/faresibrahim/"><img src="shop.png" alt="project" /></a>
+            </div>
+            <div class="project__card">
+              <img src="project-5.png" alt="project" />
+            </div>
+            <div class="project__card">
+              <a href=""><img src="project-6.png" alt="project" /></a>
+            </div>
+          </div>
+        </div>
+    </section>  
+</body>
+</html>
